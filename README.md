@@ -45,15 +45,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```
 - git clone git@github.com:erickhansx/morse-code.git
-- cd vet-clinic
+- cd morse-code
 ```
 
 ### Install
