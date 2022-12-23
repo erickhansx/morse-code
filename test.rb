@@ -47,4 +47,16 @@ end
 
 decode_word('-- -.--')
 
+def decode(str)
+  arr = str.split('   ')
+  arr_new = []
+  (0..arr.length - 1).each do |i|
+    word = decode_word(arr[i])
+    arr_new.push(word.join)
+  end
+  print arr_new.join(' ')
+end
+
+decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+
 
